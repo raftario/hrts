@@ -1,6 +1,6 @@
 {
 	"name": "hrts",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"author": "Raphaël Thériault <self@raftar.io>",
 	"license": "Apache-2.0",
 	"description": "A dumb TypeScript loader for modern Node.js",
