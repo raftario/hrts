@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"module": "Node16",
+		"target": "ES2023",
+		"strict": true,
+		"allowImportingTsExtensions": true,
+		"noEmit": true
+	}
+}

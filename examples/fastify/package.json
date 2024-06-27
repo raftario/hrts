@@ -1,0 +1,16 @@
+{
+	"name": "@hrts-examples/fastify",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "node --enable-source-maps --import hrts ./src/server.ts",
+		"start:nocheck": "node --enable-source-maps --import hrts/nocheck ./src/server.ts"
+	},
+	"dependencies": {
+		"fastify": "^4.28"
+	},
+	"devDependencies": {
+		"hrts": "file:../..",
+		"typescript": "~5.5"
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"name": "hrts",
+	"version": "1.0.0",
+	"author": "Raphaël Thériault <self@raftar.io>",
+	"license": "Apache-2.0",
+	"description": "A dumb TypeScript loader for modern Node.js",
+	"repository": "raftario/hrts",
+	"keywords": [
+		"typescript",
+		"ts",
+		"node",
+		"loader",
+		"import",
+		"require"
+	],
+	"files": [
+		"./src/",
+		"./target/"
+	],
+	"type": "module",
+	"exports": {
+		"./register.js": "./target/register.js",
+		".": "./target/register/default.js",
+		"./nocheck": "./target/register/nocheck.js"
+	},
+	"peerDependencies": {
+		"typescript": ">=5.5.0"
+	},
+	"engines": {
+		"node": ">=20.6.0"
+	},
+	"scripts": {
+		"prepare": "tsc",
+		"check": "tsc --build . ./examples && eslint . && prettier --check .",
+		"fix": "eslint --fix . && prettier --write ."
+	},
+	"workspaces": [
+		"./examples/*"
+	],
+	"publishConfig": {
+		"provenance": true,
+		"access": "public"
+	},
+	"devDependencies": {
+		"@raftario/configs": "raftario/configs",
+		"@tsconfig/node20": "*",
+		"@types/node": "^20.6",
+		"eslint": "^8.57",
+		"prettier": "^3.3",
+		"typescript": "~5.5"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"extends": [
+		"@raftario/configs/tsconfig.json",
+		"@tsconfig/node20/tsconfig.json"
+	],
+	"include": ["./src/"],
+	"compilerOptions": {
+		"rootDir": "./src/",
+		"outDir": "./target/",
+
+		"declaration": true,
+		"sourceMap": true,
+		"declarationMap": true
+	}
+}
