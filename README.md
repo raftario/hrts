@@ -4,6 +4,7 @@ A dumb TypeScript loader for modern Node.js
 
 ```sh
 # Node.js >=20.6.0
+# TypeScript >=5.5.0
 npm i hrts
 node --import hrts ./app.ts
 ```

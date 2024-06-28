@@ -23,9 +23,13 @@ export interface TypeScriptErrorOptions extends ErrorOptions {
 	tsconfig?: string
 	diagnostics?: ts.Diagnostic[]
 }
+/** Error thrown in the loader when TypeScript compilation fails */
 export class TypeScriptError extends Error {
+	/** File that failed to compile */
 	readonly file: string
+	/** tsconfig.json file used to compile the file */
 	readonly tsconfig?: string
+	/** TypeScript error diagnostic objects */
 	readonly diagnostics?: ts.Diagnostic[]
 
 	constructor(message: string, options: TypeScriptErrorOptions) {
