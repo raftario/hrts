@@ -45,7 +45,7 @@
 		"@raftario/configs": "raftario/configs",
 		"@tsconfig/node20": "*",
 		"@types/node": "^20.6",
-		"eslint": "^8.57",
+		"eslint": "^9.6",
 		"prettier": "^3.3",
 		"typescript": "~5.5"
 	}
