@@ -44,9 +44,9 @@
 	"devDependencies": {
 		"@raftario/configs": "raftario/configs",
 		"@tsconfig/node20": "*",
-		"@types/node": "^20.6",
-		"eslint": "^8.57",
+		"@types/node": "^22.5",
+		"eslint": "^9.10",
 		"prettier": "^3.3",
-		"typescript": "~5.5"
+		"typescript": "~5.6"
 	}
 }
