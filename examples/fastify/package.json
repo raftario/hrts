@@ -7,7 +7,7 @@
 		"start:nocheck": "node --enable-source-maps --import hrts/nocheck ./src/server.ts"
 	},
 	"dependencies": {
-		"fastify": "^4.28"
+		"fastify": "^5.0"
 	},
 	"devDependencies": {
 		"hrts": "file:../..",
