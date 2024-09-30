@@ -11,6 +11,6 @@
 	},
 	"devDependencies": {
 		"hrts": "file:../..",
-		"typescript": "~5.5"
+		"typescript": "~5.6"
 	}
 }
